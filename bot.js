@@ -13,7 +13,7 @@ client.on('message', msg => {
 });
 
 
-const developers = ["ايدي الاونر"] // Toxic Codes
+const developers = ["323152294289866763"] // Toxic Codes
 client.on ('message'، message => {// Toxic Codes
     var argresult = message.content.split (``) .slice (1) .join ('')؛ // Toxic Codes
       if (! developers.includes (message.author.id)) return؛
