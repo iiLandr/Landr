@@ -1,70 +1,86 @@
-const Discord = require("discord.js");
+const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "&";
+var prefix = "+"
+
 client.on('ready', () => {
-  console.log(Logged in as ${client.user.tag}!);
+  console.log(`Logged in as ${client.user.tag}!`);
+  console.log('')
+  console.log('')
+  console.log('╔[═════════════════════════════════════════════════════════════════]╗')
+  console.log(`[Start] ${new Date()}`);
+  console.log('╚[═════════════════════════════════════════════════════════════════]╝')
+  console.log('')
+  console.log('╔[════════════════════════════════════]╗');
+  console.log(`Logged in as * [ " ${client.user.username} " ]`);
+  console.log('')
+  console.log('Informations :')
+  console.log('')
+  console.log(`servers! [ " ${client.guilds.size} " ]`);
+  console.log(`Users! [ " ${client.users.size} " ]`);
+  console.log(`channels! [ " ${client.channels.size} " ]`);
+  console.log('╚[════════════════════════════════════]╝')
+  console.log('By Wenteed')
+  console.log('╔[════════════]╗')
+  console.log(' Bot Is Online')
+  console.log('╚[════════════]╝')
+  console.log('')
+  console.log('')
+
+  
+  
+
+
 });
-
-
-
-client.on('message', message => {
-            if (message.content.startsWith("قوانين")) {
-     let embed = new Discord.RichEmbed()
-.setThumbnail(message.author.avatarURL)
-.addField('     **اولا** ' ,' **ممنوع السب** ')
-.addField('     **ثانيا** ' ,' **لا تسوي سبام ** ')
-.addField('     **ثالثا** ' ,' **لا تزعج الاخرين** ')
-.addField('    **رابعا**' ,' **ممنوع الاعلانات** ')
-.addField('    **خامسا**' ,' **احترم الاخرين** ')
-.addField('    **سادسا**' ,' **لا تنشر في الشات او بل خاص** ')
-.addField('    **سابعا**' ,' **لا تنشر روابط!** ')
-.addField('    **ثامنا**' ,' **لا تسوي سبام ايموجي** ')
-.addField('    **تاسعا**' ,' **لا تطلب رتبه الاداره !** ')
-.setColor('#7d2dbe')
-  message.channel.sendEmbed(embed);
-    }
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
 client.login(process.env.BOT_TOKEN);
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+العميل . login ( process . env . BOT_TOKEN ) ؛
