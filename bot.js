@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
-var perfix = "+";
+const   client   =   new   Discord . العميل ()
+var perfix = "+"//
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
