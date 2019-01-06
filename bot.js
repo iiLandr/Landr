@@ -14,7 +14,7 @@ client.on('message', msg => {
 
 
 const developers = ["323152294289866763"] // Toxic Codes
-client.on ('message'، message => {// Toxic Codes
+client.on ('message', message => {// Toxic Codes
     var argresult = message.content.split (``) .slice (1) .join ('')؛ // Toxic Codes
       if (! developers.includes (message.author.id)) return؛
       
