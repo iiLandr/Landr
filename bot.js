@@ -48,7 +48,8 @@ client.on('message', message => {
 if (message.content.startsWith(adminprefix + "setavatar")) {
   client.user.setAvatar(argresult);
     message.channel.se
-
+}
+});
 
 
 
