@@ -15,6 +15,7 @@ client.on('message', msg => {
 
 
 
+
 const devs = ["323152294289866763"];
 const adminprefix = "+";
 client.on('message', message => {
@@ -46,10 +47,7 @@ client.on('message', message => {
 } else
 if (message.content.startsWith(adminprefix + "setavatar")) {
   client.user.setAvatar(argresult);
-    message.channel.send(`Changing The Avatar To :**${argresult}** `);
-}
-});
-
+    message.channel.se
 
 
 
