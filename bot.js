@@ -29,7 +29,7 @@ client.on('message', message => {
      if (message.content === ( adminprefix + "leave")) {
     message.guild.leave();        
   } else  
-  if (message.content.startsWith('(prefix)wt')) {
+  if (message.content.startsWith(adminprefix + "wh")) {
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(`**✅   ${argresult}**`)
   } else 
@@ -47,10 +47,9 @@ client.on('message', message => {
 } else
 if (message.content.startsWith(adminprefix + "setavatar")) {
   client.user.setAvatar(argresult);
-    message.channel.se
+    message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
-
 
 
 
