@@ -52,8 +52,8 @@ if (message.content.startsWith(adminprefix + "setavatar")) {
 });
 
 
-Snow Codescopyright arrow_down
-client.on('message', message => {
+
+العميل . على ( 'message'  ،  message  => {
     if (message.content.startsWith("رابط")) {
         message.channel.createInvite({
         thing: true,
